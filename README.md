@@ -16,9 +16,9 @@ This paper has described the Schrodinger wave equation for the hydrogen and posi
 ---
 
 ### **Introduction:**
-<img src="https://render.githubusercontent.com/render/math?math=-\frac{\hbar^{2}}{2 m} \nabla^{2} \psi(\mathbf{r})+V(\mathbf{r})=E \psi(\mathbf{r})">
- <br/><br/>
-<img src="https://render.githubusercontent.com/render/math?math=\\\int_{-\infty}^{+\infty} \Psi^{*}(\mathrm{x}) \Psi(\mathrm{x}) \mathrm{d} \mathrm{x}=1">
+
+$$-\frac{\hbar^{2}}{2 m} \nabla^{2} \psi(\mathbf{r})+V(\mathbf{r})=E \psi(\mathbf{r})
+\\\int_{-\infty}^{+\infty} \Psi^{*}(\mathrm{x}) \Psi(\mathrm{x}) \mathrm{d} \mathrm{x}=1$$
 
 This paper is concerned with the numerical solutions of the radial Schrodinger wave equation for the hydrogen and positronium atoms using the Runge-Kutta method. Schrodinger equation is an important quantum mechanical equation yielding wave functions as its solution. It rarely becomes possible to solve this equation analytically; the Runge Kutta method is thus discussed in this paper to provide accurate numerical methods to such equations where no analytical counterpart exists.
 The Runge-Kutta method of order 4 is a method of numerical integration based on the formalism of Euler , but with better precis to solve initial value problems.
